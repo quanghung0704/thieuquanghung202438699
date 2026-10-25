@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HUNG · Personal Portfolio &amp; Digital Showcase</title>
+<meta name="description" content="HUNG, the personal portfolio of THIEU QUANG HUNG: academic journey, selected projects, skills and contact details.">
+<meta property="og:title" content="HUNG · Personal Portfolio &amp; Digital Showcase">
+<meta property="og:description" content="Academic journey, selected projects and skills of THIEU QUANG HUNG.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+  <script type="module" crossorigin src="./assets/index-DyihdZhl.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Dn6xhgX4.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site" id="hdr">
+  <div class="wrap bar">
+    <a class="mark" href="#top" id="mark">[Student Name]</a>
+    <nav class="main" aria-label="Primary"><ul id="nav"></ul></nav>
+    <div class="tools">
+      <button class="ibtn" id="theme" type="button" aria-label="Switch colour theme"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+      <a class="btn pri sm" href="#resume">Résumé</a>
+      <button class="ibtn burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="top"><span class="mark">[Student Name]</span>
+    <button class="ibtn" id="close" type="button" aria-label="Close menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <ul id="dnav"></ul>
+  <a class="btn pri" href="#resume" data-close>Get my résumé</a>
+</div>
+
+<main id="main">
+<div id="top"></div>
+<section class="hero" aria-labelledby="h1"><div class="wrap grid">
+  <div class="load">
+    <p class="tag"><span class="dot" aria-hidden="true"></span><span id="avail"></span></p>
+    <h1 id="h1"><span>Building Ideas.</span><span>Creating Value.</span><span>Growing Every Day.</span></h1>
+    <p class="names" id="names"></p>
+    <p class="lede" id="lede"></p>
+    <div class="cta"><a class="btn pri" href="#projects">Explore My Projects</a><a class="btn" href="#about">About Me</a></div>
+  </div>
+  <figure><div class="plate" id="plate" role="img" aria-label="Placeholder for a portrait of the student"></div><figcaption>Illustrative avatar, not a photograph of Hung. Set PROFILE.portrait to use a real photo.</figcaption></figure>
+</div></section>
+
+<section class="about" id="about" aria-labelledby="about-h"><div class="wrap">
+  <div class="sh"><h2 id="about-h">About</h2><p>Who I am, what I study, and how I like to work.</p></div>
+  <div class="cols"><p class="big" id="statement"></p><div><div class="prose" id="aboutText"></div><div class="facts" id="facts"></div></div></div>
+</div></section>
+
+<section id="projects" aria-labelledby="proj-h"><div class="wrap">
+  <div class="sh"><h2 id="proj-h">Selected work</h2><p>Coursework, research and personal builds. Open any project for the full case study.</p></div>
+  <div class="filters" id="filters" role="group" aria-label="Filter projects by category"></div>
+  <div class="pgrid" id="pgrid" aria-live="polite"></div>
+</div></section>
+
+<section id="skills" aria-labelledby="sk-h" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">
+  <div class="sh"><h2 id="sk-h">Skills</h2><p>Sample entries only. Each one gets replaced with a skill I can demonstrate.</p></div>
+  <div class="skills" id="skillsBox"></div>
+</div></section>
+
+<section class="dark" id="experience" aria-labelledby="ex-h"><div class="wrap">
+  <div class="sh"><h2 id="ex-h">Experience</h2><p>Internships, student organisations and independent work.</p></div>
+  <ol class="tl" id="tl"></ol>
+</div></section>
+
+<section id="education" aria-labelledby="ed-h"><div class="wrap">
+  <div><h2 id="ed-h" style="font-size:clamp(1.8rem,3.6vw,2.7rem);margin-bottom:28px">Education</h2><div id="eduBox"></div></div>
+  </div></section><section id="achievements" aria-labelledby="ac-h" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><h2 id="ac-h" style="font-size:clamp(1.8rem,3.6vw,2.7rem);margin-bottom:28px">Achievements</h2><div id="achBox"></div>
+</div></section>
+
+<section class="resume" id="resume" aria-labelledby="rs-h"><div class="wrap in">
+  <div><h2 id="rs-h">Résumé</h2><p class="note" id="rnote" role="status"></p></div>
+  <a class="btn pri" id="rbtn" href="#resume">Download CV</a>
+</div></section>
+
+<section class="dark contact" id="contact" aria-labelledby="ct-h"><div class="wrap">
+  <div class="cols">
+    <div><h2 id="ct-h">Have an opportunity in mind?</h2><p class="muted" style="margin-top:20px;max-width:40ch">Internships, research positions, collaborations or a quick question are all welcome.</p><ul class="links" id="links"></ul></div>
+    <form id="form" novalidate aria-describedby="priv">
+      <div class="f"><label for="n">Name</label><input id="n" name="name" autocomplete="name" required aria-describedby="n-e"><div class="err" id="n-e"></div></div>
+      <div class="f"><label for="e">Email</label><input id="e" name="email" type="email" autocomplete="email" required aria-describedby="e-e"><div class="err" id="e-e"></div></div>
+      <div class="f"><label for="s">Subject</label><input id="s" name="subject" required aria-describedby="s-e"><div class="err" id="s-e"></div></div>
+      <div class="f"><label for="m">Message</label><textarea id="m" name="message" required aria-describedby="m-e"></textarea><div class="err" id="m-e"></div></div>
+      <div class="hp" aria-hidden="true"><label>Leave empty<input name="website" tabindex="-1" autocomplete="off"></label></div>
+      <button class="btn pri" type="submit" id="send">Send message</button>
+      <div class="status" id="status" role="status" aria-live="polite"></div>
+      <p class="priv" id="priv">Nothing is stored. Once a contact email is configured, this form opens a pre-filled message in your own mail app, and it is only sent when you press send there.</p>
+    </form>
+  </div>
+</div></section>
+</main>
+
+<footer class="dark"><div class="wrap in">
+  <span><strong>HUNG</strong> · <span id="fname"></span><br>A student portfolio, growing with every project.</span><nav aria-label="Footer" id="fnav"></nav>
+  <span id="flinks"></span>
+  <span>© <span id="yr"></span> · <a href="#top">Back to top</a></span>
+</div></footer>
+
+<button class="ibtn totop" id="totop" type="button" aria-label="Back to top"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+<dialog id="dlg" aria-labelledby="dlg-t"><div class="dlg" id="dlgBody"></div></dialog>
+
+</body>
+</html>
